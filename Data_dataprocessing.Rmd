@@ -1,0 +1,16 @@
+---
+title: "Data processing"
+output: html_notebook
+---
+
+check data
+```{r}
+getwd()
+```
+load data
+```{r}
+boxing <- read.csv("fighters_data.csv", header=TRUE, sep=",")
+
+nrow(boxing)
+```
+
