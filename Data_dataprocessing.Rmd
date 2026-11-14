@@ -14,3 +14,7 @@ boxing <- read.csv("fighters_data.csv", header=TRUE, sep=",")
 nrow(boxing)
 ```
 
+```{r}
+colnames(boxing)
+```
+
