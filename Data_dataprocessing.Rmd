@@ -18,3 +18,17 @@ nrow(boxing)
 colnames(boxing)
 ```
 
+
+```{r}
+boxing$reach <- gsub("-", NA, boxing$Reach)
+
+```
+```{r}
+unique(boxing$reach)
+```
+```{r}
+boxing$reach <- strsplit(boxing$reach, '"')
+
+unique(boxing$reach[1])
+```
+
